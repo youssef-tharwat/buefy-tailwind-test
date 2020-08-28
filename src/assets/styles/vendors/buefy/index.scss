@@ -1,0 +1,17 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+
+// Import Customization
+@import "./setup";
+@import "./components/buttons";
+@import "./components/links";
+
+// Import Bulma's Elements
+@import "~bulma/sass/elements/button.sass";
+
+// Import Bulma's Components
+@import "~bulma/sass/components/tabs.sass";
+
+// Import Buefy's Components
+@import "~buefy/src/scss/components/tabs.scss";
