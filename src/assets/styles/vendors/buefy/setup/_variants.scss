@@ -1,0 +1,12 @@
+// Update some of Bulma's component variables
+$primary: $blue;
+$primary-light: $light-blue;
+$primary-invert: findColorInvert($primary);
+
+$success: $green;
+$success-light: $light-green;
+$success-invert: findColorInvert($success);
+
+$danger: $red;
+$danger-light: $light-red;
+$danger-invert: findColorInvert($danger);

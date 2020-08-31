@@ -1,6 +1,7 @@
 const { colors } = require("tailwindcss/defaultTheme");
 module.exports = {
   prefix: "tw-",
+  important: true,
   purge: {
     enabled: process.env.NODE_ENV === "production",
     content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx", "./src/**/*.scss"]
@@ -66,6 +67,11 @@ module.exports = {
       "4xl": "2.25rem", // 36px
       "5xl": "3rem", // 48px
       "6xl": "4rem" // 64px
+    },
+    fontFamily: {
+      sans: ["-apple-system", "BlinkMacSystemFont"],
+      serif: ["Georgia", "Cambria"],
+      mono: ["SFMono-Regular", "Menlo"]
     },
 
     /*

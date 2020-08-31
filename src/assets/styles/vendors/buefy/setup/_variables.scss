@@ -1,0 +1,21 @@
+// Colors
+$blue: theme("colors.blue.400");
+$red: theme("colors.red.400");
+$green: theme("colors.green.400");
+
+$light-green: theme("colors.green.100");
+$light-red: theme("colors.red.100");
+$light-blue: theme("colors.blue.100");
+
+// fonts
+$family-sans-serif: theme("fontFamily.sans");
+$family-serif: theme("fontFamily.serif");
+$family-monospace: theme("fontFamily.mono");
+
+// Radius
+$radius-none: theme("borderRadius.none");
+$radius-sm: theme("borderRadius.sm");
+$radius: theme("borderRadius.default");
+$radius-md: theme("borderRadius.md");
+$radius-lg: theme("borderRadius.lg");
+$radius-full: theme("borderRadius.full");

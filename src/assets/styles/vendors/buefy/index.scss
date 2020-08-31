@@ -4,14 +4,17 @@
 
 // Import Customization
 @import "./setup";
-@import "./components/buttons";
-@import "./components/links";
+@import "./elements/buttons";
+@import "./elements/links";
+@import "./elements/notification";
 
 // Import Bulma's Elements
 @import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/notification.sass";
 
 // Import Bulma's Components
 @import "~bulma/sass/components/tabs.sass";
 
 // Import Buefy's Components
+@import "~buefy/src/scss/utils/_all";
 @import "~buefy/src/scss/components/tabs.scss";
